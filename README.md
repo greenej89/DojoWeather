@@ -1,6 +1,6 @@
-#Dojo Weather
+Dojo Weather
 
-##Assignment Information
+Assignment Information
 Use HTML and CSS to recreate the look  of a Weather Forecase page.  Use JavaScript to implement the features:
 1) Position a cookie policy at the bottom of the screen.
 2) Hide the cookie policy message when the user clicks the accept button.
