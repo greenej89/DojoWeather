@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid darkgoldenrod */
+}
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* Set webpage content margins */
+.content, .nav-content {
+    width: 80%;
+    margin: 0px auto;
+}
+
+
+/* Set nav color and padding */
+.nav {
+    background-color: #9fc5f8;
+    color: white;
+    padding: 10px 0px;
+}
+/* Flex nav content */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Style nav-links*/
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+/* Remove style for nav-links */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Style header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    border-bottom: 3px solid black;
+}
+
+.weather {
+    /* background-color: blue; */
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.day {
+    background-color: #eeeeee;
+    flex: 1;
+    height: 350px;
+    padding: 20px 30px ; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+h3 {
+    font-size: 20px;
+}
+.day img {
+    width: 80%;
+    border-radius: 50%;
+}
+.hi-lo {
+    width: 80%;
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 900;
+}
+.hi {
+    color: red;
+}
+.lo{
+    color: #2b77e4;
+}
+.cookie-alert {
+    width: 80%;
+    height: 125px;
+    position: fixed;
+    bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #eeeeee;
+    border: 3px solid black;
+}
+.alert-text {
+    width: 65%;
+}
+#alert-header {
+    font-size: 20px;
+    font-weight: 900;
+}
+#accept-button {
+    width: 12%;
+    height: 25px;
+    background-color: #9fc5f8;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+    font-size: 14px;
+}
